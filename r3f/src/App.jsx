@@ -206,6 +206,7 @@ function App() {
 
       <Physics debug={PhysicsDebug}>
 
+        {/* react logo */}
         <RigidBody 
           colliders="hull"
         >
@@ -300,8 +301,10 @@ function App() {
         )}
 
       </Physics>
-     
-      {Apply_SoftShadows && <SoftShadows 
+        
+      {/* SoftShadows */}
+      {Apply_SoftShadows && 
+      <SoftShadows 
         size={ size } 
         samples={ samples } 
         distance={ distance } 
