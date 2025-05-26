@@ -1,4 +1,4 @@
-import { OrbitControls, SoftShadows, useHelper, useGLTF, useTexture } from '@react-three/drei'
+import { OrbitControls, SoftShadows, useHelper, useGLTF, useTexture, Html } from '@react-three/drei'
 import { useThree, useFrame } from '@react-three/fiber'
 import { Physics, RigidBody } from '@react-three/rapier'
 import { useRef, useEffect, useState } from 'react'
@@ -260,7 +260,12 @@ function App() {
                 setActive(true)
                 setHasDropped(true)
               }}
-            >
+            > 
+              <Html>
+                <div className="content" >
+                  curriculum vitae <br /> (Click to see details)
+                </div>
+              </Html>
               <mesh 
                 receiveShadow 
                 rotation={[-Math.PI / 2, 0, 0]} 
@@ -299,6 +304,9 @@ function App() {
             />
           </a.group>
         )}
+
+        {/* external links */}
+        
 
       </Physics>
         
