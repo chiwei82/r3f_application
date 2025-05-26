@@ -12,7 +12,7 @@ import './App.css'
 function App() {
   
   const cvTexture = useTexture('./cv.jpg')
-  const box = useGLTF('./models/Cardboard_Boxes.gltf')
+  const box = useGLTF('./models/Cardboard_Boxes_512.gltf')
   const { scene } = useGLTF('./models/clipboard/scene.gltf')
   const react = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/react-logo/model.gltf')
   
