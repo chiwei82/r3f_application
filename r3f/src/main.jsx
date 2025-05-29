@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { Canvas } from '@react-three/fiber'
 import { Loader } from '@react-three/drei'
 import { Suspense } from 'react'
-import * as THREE from 'three'
 import './index.css'
 import App from './App.jsx'
 
