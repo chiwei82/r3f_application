@@ -100,7 +100,7 @@ function App() {
       />
       <PhysicsWorld debug={PhysicsDebug}>
         <ReactLogo />
-        <CardboardBox setLoaded={undefined /* 可依需求傳 setLoaded */} ref={boxRef} />
+        <CardboardBox setLoaded={undefined} ref={boxRef} />
         <Ground />
         <Clipboard
           sceneUrl={'./models/clipboard/scene.gltf'}
